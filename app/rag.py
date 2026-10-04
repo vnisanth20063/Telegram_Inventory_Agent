@@ -73,9 +73,3 @@ def ask_rag(question: str) -> str:
     response = llm.invoke(prompt)
 
     return response.content
-
-question="Where HIG AI Automation located?"
-result=ask_rag(question)
-
-print("Customer:", question)
-print("Bot:", result)
